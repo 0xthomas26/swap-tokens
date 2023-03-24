@@ -18,10 +18,11 @@ The function `createExchangeGraphFromFile` builds an exchange rate graph from th
 
 The function `swapTokens` takes the exchangeRates & a query (from, to, amount) then performs a breadth-first search. It returns an amount with 6 decimal places and the path:
 
-36 (TokenA -> TokenB -> TokenC)
-8333.333333 (TokenB -> TokenA)
-24000000000 (TokenD -> TokenA -> TokenB)
-1.388889 (TokenC -> TokenB -> TokenA -> TokenD)
+
+36 (TokenA -> TokenB -> TokenC)<br />
+8333.333333 (TokenB -> TokenA)<br />
+24000000000 (TokenD -> TokenA -> TokenB)<br />
+1.388889 (TokenC -> TokenB -> TokenA -> TokenD)<br />
 
 ---
 
