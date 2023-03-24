@@ -1,0 +1,16 @@
+{
+    "name": "swap-tokens",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node main.js",
+        "test": "mocha"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "chai": "^4.3.7",
+        "fs": "^0.0.1-security",
+        "mocha": "^10.2.0"
+    }
+}
