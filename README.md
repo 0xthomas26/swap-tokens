@@ -2,15 +2,15 @@
 
 ### Installation
 
-yarn install
+`yarn install`
 
 ### Run
 
-yarn start
+`yarn start`
 
 ### Test
 
-yarn test
+`yarn test`
 
 ---
 
