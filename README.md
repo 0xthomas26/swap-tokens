@@ -6,7 +6,8 @@
 
 ### Run
 
-`yarn start`
+yarn start (for the breadth-first algorithm)
+yarn dijkstra (for the dijkstra algorithm)
 
 ### Test
 
@@ -17,7 +18,6 @@
 The function `createExchangeGraphFromFile` builds an exchange rate graph from the file.
 
 The function `swapTokens` takes the exchangeRates & a query (from, to, amount) then performs a breadth-first search. It returns an amount with 6 decimal places and the path:
-
 
 36 (TokenA -> TokenB -> TokenC)<br />
 8333.333333 (TokenB -> TokenA)<br />

@@ -3,7 +3,7 @@ import { createExchangeGraphFromFile, swapTokens } from './swapTokens.js';
 const main = () => {
     const { exchangeRates, queries } = createExchangeGraphFromFile();
     console.log('exchange rates=', exchangeRates);
-    console.log('queries=', queries);
+    // console.log('queries=', queries);
 
     for (const query of queries) {
         const { amount, path } = swapTokens(exchangeRates, query);
