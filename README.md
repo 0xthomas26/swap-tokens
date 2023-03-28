@@ -6,8 +6,9 @@
 
 ### Run
 
-yarn start (for the breadth-first algorithm)
-yarn dijkstra (for the dijkstra algorithm)
+`yarn start` (for the breadth-first algorithm)
+
+`yarn dijkstra` (for the dijkstra algorithm)
 
 ### Test
 
